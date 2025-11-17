@@ -1,4 +1,20 @@
-name = "v20251104"
+name = "dragon"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
+
+[observability]
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+# 绑定 Cloudflare KV 存储
+[[kv_namespaces]]
+binding = "KV"
+# KV 命名空间 ID
+id = "89f3123b2a364ebca924f904d6b608ec"
+
+[vars]
+ADMIN = ""
