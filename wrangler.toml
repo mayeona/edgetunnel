@@ -16,4 +16,4 @@ persist = true
 [[kv_namespaces]]
 binding = "KV"
 # KV 命名空间 ID
-id = "89f3123b2a364ebca924f904d6b608ec"
+id = "2dee164552924ed6a788c2e4185eb7df"
