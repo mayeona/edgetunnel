@@ -1,6 +1,8 @@
 name = "dragon"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
+workers_dev = false
+preview_urls = false
 keep_vars = true
 
 [observability]
@@ -15,6 +17,3 @@ persist = true
 binding = "KV"
 # KV 命名空间 ID
 id = "89f3123b2a364ebca924f904d6b608ec"
-
-[vars]
-ADMIN = ""
